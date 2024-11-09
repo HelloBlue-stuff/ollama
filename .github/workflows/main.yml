@@ -1,8 +1,11 @@
+
 name: latest
 
 on:
-  release:
+  release: 4.1-patch1
     types: [released]
+   workflow_dispatch
+
 
 jobs:
   update-latest:
